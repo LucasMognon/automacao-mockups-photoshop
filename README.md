@@ -58,13 +58,12 @@ O desenvolvimento partiu de um fluxo no Photoshop 24.6.0. A compatibilidade com 
 
 ## Organização das pastas
 
-Mantenha `Decoreiro_Mockups.jsx` na pasta principal, ao lado de `arquivos`. Nome sugerido para a pasta local: `Decoreiro_Automacao_Photoshop`.
+Mantenha `Aut_Mockups.jsx.jsx` na pasta principal, ao lado de `arquivos`. Nome sugerido para a pasta local: `Automacao_Mockups_Photoshop`.
 
 | Caminho relativo | Conteúdo |
 |---|---|
-| `Decoreiro_Mockups.jsx` | Script principal |
+| `Aut_Mockups.jsx.jsx` | Script principal |
 | `README.md` | Apresentação e instruções |
-| `LEIA-ME.html` | Guia complementar, quando incluído |
 | `arquivos/imagens/` | Artes dos produtos |
 | `arquivos/mockups/` | Modelos PSD/PSB |
 | `arquivos/objetos_vinculados/` | Arquivos de referência dos objetos vinculados |
