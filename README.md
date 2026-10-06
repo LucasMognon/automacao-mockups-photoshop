@@ -16,7 +16,7 @@ A automação foi criada para executar essas etapas em sequência, mantendo a or
 
 O usuário escolhe o tipo de produto, indica as pastas e inicia o processamento. O script percorre os produtos e os mockups selecionados, prepara as artes nas dimensões de cada objeto vinculado e exporta uma imagem por combinação.
 
-Por exemplo, **20 conjuntos aplicados a 21 mockups correspondem a 420 JPGs gerados em poucos minutos**. O que antes a equipe demorava para completar em 1 dia agora é feito em 30 minutos.
+Por exemplo, **20 conjuntos aplicados a 21 mockups correspondem a 420 JPGs gerados em poucos minutos**. O que antes a equipe não conseguia completar em 1 dia agora é feito em 30 minutos.
 
 ## Funcionalidades
 
