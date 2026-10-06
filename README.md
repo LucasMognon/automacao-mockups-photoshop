@@ -114,7 +114,7 @@ A leitura considera a pasta de imagens selecionada e suas subpastas imediatas. O
 1. Baixe o código do repositório e descompacte os arquivos.
 2. Organize as pastas locais e adicione suas artes, mockups e objetos vinculados.
 3. Salve e feche os documentos abertos no Photoshop.
-4. Acesse **Arquivo → Scripts → Procurar** e selecione `Decoreiro_Mockups.jsx`.
+4. Acesse **Arquivo → Scripts → Procurar** e selecione `Aut_Mockups.jsx`.
 5. Escolha **Individual**, **Dupla** ou **Trio** e confira as pastas preenchidas.
 6. Selecione o enquadramento. O padrão é **Esticar para preencher**, centralizado e sem corte.
 7. Execute primeiro o modo **Teste** e confira o JPG gerado.
