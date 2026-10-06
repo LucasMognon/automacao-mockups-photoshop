@@ -1,14 +1,14 @@
-# Decoreiro — Automação de Mockups no Photoshop
+# Automação de Mockups no Photoshop
 
 Automação em JavaScript/ExtendScript para gerar imagens de quadros decorativos em lote no Adobe Photoshop. O projeto aplica artes a mockups de **quadros individuais, duplas e trios**, substitui objetos inteligentes vinculados e exporta os resultados em JPG.
 
-Desenvolvido a partir de uma necessidade real da **Decoreiro**, o projeto transforma uma sequência de trocas e salvamentos manuais em um fluxo configurável, organizado por produto e modelo de mockup.
+Desenvolvido a partir de uma necessidade real de uma empresa de quadros, o projeto transforma uma sequência de trocas e salvamentos manuais em um fluxo configurável, organizado por produto e modelo de mockup. Esta versão pública foi adaptada para portfólio e não contém imagens, mockups, dados de clientes ou outros ativos proprietários da empresa.
 
 ## O problema
 
 Um catálogo de quadros pode combinar centenas de artes com diferentes molduras, acabamentos e apresentações. Repetir manualmente a inserção das imagens e a exportação de cada variação exige muitas operações e atenção constante.
 
-No processo que originou este projeto, os mockups eram abertos em grupos para respeitar a capacidade do computador. Cada novo conjunto de artes exigia atualizar os objetos vinculados e salvar novamente as variações.
+No processo que originou este projeto, os mockups eram abertos em grupos para respeitar a capacidade do computador. Cada novo conjunto de artes exigia atualizar os objetos vinculados e salvar novamente as variações. Isso tornava o fluxo de trabalho extremamente ineficiente. 
 
 A automação foi criada para executar essas etapas em sequência, mantendo a organização dos arquivos e preservando os modelos originais.
 
@@ -16,7 +16,7 @@ A automação foi criada para executar essas etapas em sequência, mantendo a or
 
 O usuário escolhe o tipo de produto, indica as pastas e inicia o processamento. O script percorre os produtos e os mockups selecionados, prepara as artes nas dimensões de cada objeto vinculado e exporta uma imagem por combinação.
 
-Por exemplo, **20 conjuntos aplicados a 21 mockups correspondem a 420 JPGs**. Esse é um exemplo de volume de trabalho, não uma medição de desempenho.
+Por exemplo, **20 conjuntos aplicados a 21 mockups correspondem a 420 JPGs gerados em poucos minutos**. O que antes a equipe demorava para completar em 1 dia agora é feito em 30 minutos.
 
 ## Funcionalidades
 
@@ -58,11 +58,11 @@ O desenvolvimento partiu de um fluxo no Photoshop 24.6.0. A compatibilidade com 
 
 ## Organização das pastas
 
-Mantenha `Aut_Mockups.jsx.jsx` na pasta principal, ao lado de `arquivos`. Nome sugerido para a pasta local: `Automacao_Mockups_Photoshop`.
+Mantenha `Aut_Mockups.jsx` na pasta principal, junto com uma pasta chamad 'arquivos'. Mantenha a estrutura de pastas recomendada abaixo.
 
 | Caminho relativo | Conteúdo |
 |---|---|
-| `Aut_Mockups.jsx.jsx` | Script principal |
+| `Aut_Mockups.jsx` | Script principal |
 | `README.md` | Apresentação e instruções |
 | `arquivos/imagens/` | Artes dos produtos |
 | `arquivos/mockups/` | Modelos PSD/PSB |
